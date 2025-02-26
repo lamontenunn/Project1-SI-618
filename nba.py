@@ -4,6 +4,9 @@ import pandas as pd
 salaries = pd.read_csv('salaries.csv')
 stats = pd.read_csv('stats.csv', encoding='latin1')
 
+# Read the stats data using the correct delimiter
+stats = pd.read_csv('stats.csv', sep=';')
+
 salaries = salaries[['Player Name', '2022/2023']].rename(columns={'2022/2023': 'Salary_2022_2023'})
 
 # Merge the datasets on the player name columns
