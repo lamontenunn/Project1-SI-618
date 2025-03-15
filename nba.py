@@ -78,7 +78,6 @@ def build_regression_model(data):
     print("\nRegression Model Evaluation:")
     print(f"Mean Squared Error (MSE): {mse:.2f}")
     print(f"R-square Score: {r2:.2f}")
-    
     plt.figure(figsize=(8, 6))
     plt.scatter(y_test, y_pred, alpha=0.7)
     plt.xlabel("Actual Points (PTS)")
