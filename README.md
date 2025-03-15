@@ -25,7 +25,7 @@ A data analysis project examining relationships between NBA player salaries and 
 git clone https://github.com/lamontenunn/Project1-SI-618.git
 or
 git clone git@github.com:lamontenunn/Project1-SI-618.git
-cd nba-analysis
+cd Project1
 
 
 ```
